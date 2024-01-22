@@ -1,0 +1,98 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+<div class="content">
+    <div class="slider">
+
+        <input type="radio" name="radio-slider" id="radio1" checked>
+        <span> </span>
+
+
+        <input type="radio" name="radio-slider" id="radio2">
+        <span> </span>
+
+        <input type="radio" name="radio-slider" id="radio3">
+        <span> </span>
+
+        <div class="slide-s1">
+            <img src="/laragon/www/speb/public/img/slide/1.jpg">
+        </div>
+
+        <div class="slide">
+            <img src="/img/slide/2.jpg">
+        </div>
+
+        <div class="slide">
+            <img src="/img/slide/3.jpg">
+        </div>
+        
+    </div class="navigation">
+        <label class="bar" for="radio1"></label>
+        <label class="bar" for="radio2"></label>
+        <label class="bar" for="radio3"></label>
+    <div>
+        
+    </div>
+</div>
+
+<style>
+
+    body{
+        display: flex;
+        min-height: 100vh;
+        flex-direction: column;
+        background-color: rgb(76, 73, 71);
+    }
+
+    #logo{
+        height: 60px;
+        margin-top: 2px;
+    }
+
+    #btn-acesso-aluno{
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        margin-top: 0px;
+        height: 63px;
+        width: 180px
+    }
+
+    #step_by_step{
+        height: 150px;
+
+    }
+
+    main {
+    flex: 1 0 auto;
+    }
+
+    /** 
+    **/
+
+    .content{
+        overflow: hidden;
+        height: 520px;
+        width: 935px;
+        border-radius: 20px;
+        position: absolute;
+        top: 15%;
+    }
+
+    .navigation{
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        transform: translate(-50%);
+        display: flex;
+    }
+
+    .bar{
+        width: 70px;
+        height: 17px;
+        border: 2px solid white;
+        margin: 6px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+   
+</style>
